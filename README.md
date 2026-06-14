@@ -1,2 +1,0 @@
-# praveenkumarclasses
-Online course platform
