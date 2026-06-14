@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 const PraveenKumarClasses = () => {
   const [currentUser, setCurrentUser] = useState(null);
@@ -615,6 +616,7 @@ const PraveenKumarClasses = () => {
         <p style={{ color: 'var(--color-text-secondary)' }}>📚 Praveen Kumar Classes | Email: praveenclasses355@gmail.com | Phone: 9971908578</p>
         <p style={{ color: 'var(--color-text-secondary)', marginTop: '1rem', fontSize: '0.9rem' }}>&copy; 2026 All rights reserved.</p>
       </footer>
+      <Analytics />
     </div>
   );
 };
